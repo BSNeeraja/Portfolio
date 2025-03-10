@@ -1,0 +1,48 @@
+/* forms.css */
+.inputdiv{
+  padding: 10px;
+}
+/* Input Field Styles */
+.input_field {
+    margin: 10px;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    padding: 5px 0;
+    width: 200px;
+    font-size: 16px;
+    
+  }
+  
+  .input-field::placeholder {
+    color: grey;
+    font-size: 14px;
+  }
+  
+  /* Button Styles */
+  .button {
+    margin-top: 40px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Form Container */
+  .form-container {
+    margin: 20px auto;
+    width: 300px;
+    text-align: left;
+  }
+  .error_message {
+    color: red;
+    font-size: 10px;
+    margin-top: 0px;
+}

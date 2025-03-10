@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'mysterybook';
+    src: url('../../../Fonts/MysteryBook/Mystery\ Book.ttf') format('truetype'); /* Adjust the path */
+}
+html,body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url('./wallpaper1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.selfintro{
+    color: #ffffff;
+    font-size: 15px;
+}
+.mainintro{
+    border: 1px solid rgb(220, 240, 218); 
+    margin: 20px;
+    padding: 10px;
+}
+.myname{
+    color: rgb(199, 93, 93);
+    font-family: 'MysteryBook', sans-serif; /* Use the custom font */
+    font-weight: 1000;
+    font-size: 30px;
+    
+}
